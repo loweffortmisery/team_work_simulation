@@ -4,6 +4,12 @@ def factorial(n):
         res *= i
     return res
 
+    
+def is_power_of_5(n):
+    while n. 1 and n % 5 == 0:
+        n //= 5
+    return n == 1
+
 
 def nsd_finder(a, b):
     while b:
